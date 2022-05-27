@@ -1,0 +1,182 @@
+
+/* Diseño para tabletas 
+@media screen and (min-width: 800px) {
+	#columna1, #columna2 {
+		float:left;
+		width:50%;
+	}
+}*/
+
+/* Diseño para PC  
+@media screen and (min-width: 1025px) {
+	#columna1, #columna2, #columna3 {
+	float:left;
+	width:33%;
+}*/
+
+{
+	margin: 0;
+	padding: 0;
+    overflow: hidden,
+ }
+
+
+body { 
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 30px;color:grey;
+    background-image: url(../TP\ Front\ End\ Phyton/imagenes/plantilla.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 780px) {
+.full-width-img {
+    margin: auto;
+    width: 80%;
+    }}
+
+ h1{text-align: left;
+
+
+ }
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:30px;
+    } 
+
+    nav li{
+    display:inline-block;
+    min-width:10%;
+    padding:5px 5px;
+    background-color:none;
+    border:1px solid green;
+    text-align:center;
+    color:grey;
+    }
+
+    nav li:hover{
+    background-color:rgb(193, 207, 197);
+    color:rgb(62, 59, 59);
+    border-radius: 10%;
+    }
+			
+/*.nav > li {
+    float:left;
+
+
+/*SUBMENU*/
+    #nav ul li ul
+{
+	display: none; 
+    position:absolute;
+    min-width:50%;
+
+}
+
+#nav ul li:hover > ul
+{
+	display:block ;
+   
+}
+
+#nav ul li ul li
+{
+	position: relative;
+    margin: 15px;
+    right: 250px;
+	width:200px;
+	/*border-bottom: solid 1px #fff;
+    */
+}
+
+#nav ul li ul li a
+{
+	text-align: left;
+    /*right: -140px;*/
+    float: none;
+	padding-left: 10px;
+	background-color: none;
+    font-size: 20px;
+    top:0px;
+}
+
+
+  
+section{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size:20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    border:2px solid green;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 10px;
+    width:300px;
+    height: 350px;
+    background-color:rgb(250, 248, 241);
+    display: flex;
+    margin:50px;
+    flex-direction: column;
+    align-items: stretch;
+
+    
+}
+
+.card:hover{
+    width: 210px;
+    height: 285px;
+    margin: 15px;
+}
+.card p{
+    width: 160px;
+    height: 50px; 
+    align-self: center;
+    text-align: center;
+}
+/* .card a{
+    text-decoration: none;
+    padding: 5px 15px;
+    align-self:center;
+    background-color: beige;
+    margin: 10px;
+}
+*/
+
+h2 {text-align: center;
+    font-size:30px
+}
+
+h3 {text-align: left;
+    font-size:30px
+}
+
+
+
+
+/*form style {
+    color:grey; 
+    width:50vw;
+    margin: auto;
+    font-size: 40px;
+    justify-content: space-evenly;
+    align-items: center
+ 
+}*/
+
+.resizedTextbox {width: 500px; height: 100px;padding: 1px;
+text-align: left}
+
+.botonEnvio {
+    width: 50px; height: 100px}
+
+
+footer {font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 20px;color:grey;
+    margin-bottom: -40px; ;
+
+}
